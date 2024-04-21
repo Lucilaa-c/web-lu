@@ -1,0 +1,31 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+/*menú navegación*/
+.color-navegacion{
+    background-color: rgb(7, 7, 51);
+}
+.color-navegacion a{
+    color: rgb(248, 238, 225);
+}
+.dropdown-item{
+    color: rgb(7, 7, 51);
+}
+.active{
+    color: rgb(248, 238, 225) !important;
+}
+.nav-izq{
+    justify-content: flex-end;
+    flex-basis: 0;
+    flex-grow: 0;
+}
+
+/*fondo inicio*/
+.fondo-inicio img{
+    height: 700px;
+    width: 1300px;
+}
