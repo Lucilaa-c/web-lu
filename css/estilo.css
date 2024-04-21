@@ -27,12 +27,18 @@ h1{
     background-color: rgb(247, 83, 23);
     color: rgb(7, 7, 51);
     text-align: center;
-    font-family: "Nunito Sans", sans-serif;;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 10px;
+}
+h2{
+    color: rgb(7, 7, 51);
+    text-align: center;
+    border-right: 4px;
+    padding: 10px;
 }
 
 /*fondo inicio*/
 .fondo-inicio img{
     height: 700px;
     width: 1300px;
-    background-image: -moz-element(text-align);
 }
