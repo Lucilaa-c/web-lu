@@ -1,4 +1,5 @@
 /*Tipografia*/
+/* font-family: "Nunito Sans", sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*receteo*/
@@ -39,6 +40,11 @@ h2{
     border-right: 4px;
     padding: 10px;
 }
+h3{
+    color: rgb(7, 7, 51);
+    text-align: center;
+    padding: 7px;
+}
 
 /*fondo inicio*/
 .fondo-inicio img{
@@ -55,9 +61,86 @@ h2{
     padding: 10px;
     margin: 20px;
 }
-
-.carousel-inner img{
-    height: 800px;
-    width: 800px;
-    border: 15px;
+/* flexbox */
+.varias-obras{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
 }
+.edificaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow: 1px 1px 5px 1px;
+    padding: 10px;
+    margin: 15px;
+
+}
+.edificaciones img{
+    height: 400px;
+    width: 350px;
+}
+.varias-obras button{
+    padding: 7px;
+    margin: 5px;
+    color: rgb(7, 7, 51);
+    background-color: rgb(247, 83, 23);
+    border-radius: 5px;
+}
+/*contacto*/
+.fondo-contacto{
+    background-color: rgb(7, 7, 51);
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    padding: 10 ,px;
+    width: 1600px;
+}
+.box-info{
+    color: rgb(7, 7, 51);
+    display: flex;
+    flex-direction: column;
+    
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    
+}
+.contacto{
+    color: rgb(247, 83, 23);
+    background-color: rgb(7, 7, 51);
+   font-weight: bolder;
+   font-size: xx-large;
+   padding: 40px;
+   text-align: left;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 45px;
+    margin: 6px;
+}
+.formulario{
+    background-color: transparent;
+    color: rgb(247, 83, 23);
+    padding: 20px;
+    margin: 20px;
+    height: 50px;
+    width: 500px;
+    border-bottom: 2px solid rgb(247, 83, 23);
+}
+.pregunta-contacto{
+    color: rgb(247, 83, 23);
+    padding: 5px;
+    text-align: left;
+}
+
