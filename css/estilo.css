@@ -172,7 +172,7 @@ h3 {
     flex-direction: column;
     text-align: left;
     color: white;
-    padding: 20px;
+   
 
 
 
@@ -183,10 +183,13 @@ h3 {
     background-color: rgb(7, 7, 51);
     font-weight: bolder;
     font-size: xx-large;
-    padding: 40px;
+    padding: 30px;
     text-align: left;
 
 
+}
+.datos p{
+    padding: 5px;
 }
 
 form {
@@ -222,6 +225,7 @@ textarea {
     margin: 20px;
 
 }
+
 
 /*trabajos destacados*/
 .terminados {
@@ -367,5 +371,39 @@ textarea {
 
     .servicios p {
         font-size: 20px;
+    }
+}
+/*media queries contacto*/
+@media (max-width:375px) {
+    .contacto {
+        font-size: large;
+        text-align: left;
+        margin-left: 12px;
+    }
+    .datos p{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        font-size: 15px;
+
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 45px;
+    margin: 6px;
+}
+    
+}
+
+/*media queries trabajos destacados*/
+@media (max-width:375px) {
+    .terminados {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
     }
 }
